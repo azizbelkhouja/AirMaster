@@ -35,7 +35,7 @@ public class Home extends JFrame implements ActionListener {
         details.add(customerDetails);
         
         JMenuItem bookFlight = new JMenuItem("Book Flight");
-        
+        bookFlight.addActionListener(this);
         details.add(bookFlight);
         
         JMenuItem journeyDetails = new JMenuItem("Journey Details");
@@ -64,6 +64,8 @@ public class Home extends JFrame implements ActionListener {
             new AddCustomer();
         } else if (text.equals("Flight Details")) {
             new FlightInfo();
+        } else if (text.equals("Book Flight")) {
+            new BookFlight();
         }
     }
     public static void main(String[] args) {
