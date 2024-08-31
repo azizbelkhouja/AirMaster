@@ -17,7 +17,7 @@ The **Airline Management System** is a desktop application developed using Java 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/azizbelkhouja/airline-management-system.git
+   git clone https://github.com/azizbelkhouja/AirMAster.git
    ```
    
 2. **Open the project in your preferred IDE (e.g., IntelliJ IDEA, Eclipse).**
