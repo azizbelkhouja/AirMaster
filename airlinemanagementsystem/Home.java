@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class Home extends JFrame {
+public class Home extends JFrame implements ActionListener {
     
     public Home() {
         setLayout(null);
@@ -27,11 +27,11 @@ public class Home extends JFrame {
         menubar.add(details);
         
         JMenuItem flightDetails = new JMenuItem("Flight Details");
-        //flightDetails.addActionListener(this);
+     
         details.add(flightDetails);
         
         JMenuItem customerDetails = new JMenuItem("Add Customer Details");
-        
+        customerDetails.addActionListener(this);
         details.add(customerDetails);
         
         JMenuItem bookFlight = new JMenuItem("Book Flight");
@@ -57,6 +57,13 @@ public class Home extends JFrame {
         setVisible(true);
     }
     
+    public void actionPerformed(ActionEvent ae) {
+        String text = ae.getActionCommand();
+        
+        if (text.equals("Add Customer Details")) {
+            new AddCustomer();
+        }
+    }
     public static void main(String[] args) {
         new Home();
     }
