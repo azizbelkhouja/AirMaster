@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Airline Management System** is a desktop application developed using Java Swing that provides a graphical user interface (GUI) for managing airline operations. It includes features such as viewing flight details, adding customer information, booking flights, managing journey details, ticket cancellation, and generating boarding passes. The system is designed to be user-friendly, with intuitive navigation and a visually appealing interface.
+The **Airline Management System** is a desktop application developed using Java Swing that provides a graphical user interface (GUI) for managing airline operations. It includes features such as viewing flight details, adding customer information, booking flights, managing journey details, ticket cancellation, and generating boarding passes. The system is designed to be user-friendly, with intuitive navigation and a visually appealing interface
 
 ## Features
 
